@@ -25,7 +25,7 @@ h1{
 }
 
 li{
-  font-size: large;
+  font-size: medium;
 }
 .nav-item{
   margin: auto;
@@ -35,17 +35,19 @@ li{
 </head>
 <div class="container">
 
-<body style="font-family:'Kanit'">
+<body style="font-family:'Kanit'; margin:0%; width: auto;">
 
   <!--HEADBAR-->
     <div class="container">
       <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills" style="width: 100%;">
-          <li class="nav-item"><a href="#Features" class="nav-link">Features</a></li>
-          <li class="nav-item"><a href="#Schedule" class="nav-link">Schedule</a></li>
-          <img src="Logo.jpg" width="7%" length="7%">
-          <li class="nav-item"><a href="#Pricing" class="nav-link">Pricing</a></li>
-          <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+        <ul class="nav nav-pills" style="width: 100%; margin: auto;">
+          <li class="nav-item" style="width:20%"><a href="#Pricing" class="nav-link">Pricing</a></li>
+          <li class="nav-item" style="width:20%"><a href="#Schedule" class="nav-link">Schedule</a></li>
+          <li class="nav-item" style="width:5%"></li>
+          <img src="Logo.jpg" style="width:10%; height:10%; margin:auto;">
+          <li class="nav-item" style="width:2%"></li>
+          <li class="nav-item" style="width:20%"><a href="#Features" class="nav-link">Features</a></li>
+          <li class="nav-item" style="width:20%"><a href="#Contact" class="nav-link">Contact</a></li>
         </ul>
       </header>
     </div>
@@ -103,30 +105,28 @@ li{
 
 <!--SCHEDULE-->
 <h1 id="Schedule">Check this table to see my availabilities!</h1> <br>
-<div class="bd-example" style="margin: auto; width: 50%;">
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">Time/Day</th>
-        <th scope="col">Monday</th>
-        <th scope="col">Tuesday</th>
-        <th scope="col">Wednesday</th>
-        <th scope="col">Thursday</th>
-        <th scope="col">Friday</th>
-        <th scope="col">Saturday</th>
-        <th scope="col">Sunday</th>
+<div style="width: 100%;">
+  <table style="width: 100%; font-size: smaller">
+    <thead style="width: 100%; font-size: smaller">
+      <tr style="width: 100%; font-size:medium">
+        <th scope="col"  style="width:20%;">Time/Day</th>
+        <th scope="col" style="width: 16%;">Monday</th>
+        <th scope="col" style="width: 16%;">Tuesday</th>
+        <th scope="col" style="width: 16%;">Wednesday</th>
+        <th scope="col" style="width: 16%;">Thursday</th>
+        <th scope="col" style="width: 16%;">Friday</th>
+
       </tr>
     </thead>
     <tbody>
       <tr class="table-active">
-        <th scope="row">6:00am - 7:00am</th>
-        <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
+        <th scope="row" style="width: 20%;">6:00am - 7:00am</th>
+        <td style="width: 16%;">Available</td>
+        <td style="width: 16%;">Available</td>
+        <td style="width: 16%;">Available</td>
+        <td style="width: 16%;">Available</td>
+        <td style="width: 16%;">Available</td>
+
       </tr>
       <tr>
         <th scope="row">7:00am - 8:00am</th>
@@ -135,8 +135,7 @@ li{
         <td>Available</td>
         <td>Available</td>
         <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
+
       </tr>
       <tr class="table-active">
         <th scope="row">8:00am - 9:00am</th>
@@ -145,8 +144,7 @@ li{
         <td>Available</td>
         <td>Available</td>
         <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
+
       </tr>
       <tr>
         <th scope="row">9:00am - 10:00am</th>
@@ -155,8 +153,7 @@ li{
         <td>Available</td>
         <td>Available</td>
         <td>Available</td>
-        <td>Available</td>
-        <td>Available</td>
+
       </tr>
       <tr class="table-active">
       <th scope="row">10:00am - 11:00am</th>
@@ -165,8 +162,7 @@ li{
       <td>Available</td>
       <td>Available</td>
       <td>Available</td>
-      <td>Available</td>
-      <td>Available</td>
+
     </tr>
     <tr>
       <th scope="row">11:00am - 12:00pm</th>
@@ -175,8 +171,7 @@ li{
       <td>Available</td>
       <td>Available</td>
       <td>Available</td>
-      <td>Available</td>
-      <td>Available</td>
+
     </tr>
     <tr class="table-active">
       <th scope="row">12:00pm - 1:00pm</th>
@@ -185,8 +180,7 @@ li{
       <td>Available</td>
       <td>Available</td>
       <td>Available</td>
-      <td>Available</td>
-      <td>Available</td>
+
     </tr>
     <tr>
       <th scope="row">1:00pm - 2:00pm</th>
@@ -195,8 +189,7 @@ li{
       <td>Available</td>
       <td>Available</td>
       <td>Available</td>
-      <td>Available</td>
-      <td>Available</td>
+
     </tr>
     <tr class="table-active">
       <th scope="row">2:00pm - 3:00pm</th>
@@ -205,8 +198,7 @@ li{
       <td>Available</td>
       <td>Available</td>
       <td>Available</td>
-      <td>Available</td>
-      <td>Available</td>
+
     </tr>
     <tr>
       <th scope="row">3:00pm - 4:00pm</th>
@@ -215,8 +207,7 @@ li{
       <td>Available</td>
       <td>Available</td>
       <td>Available</td>
-      <td>Available</td>
-      <td>Available</td>
+
     </tr>
     <tr class="table-active">
     <th scope="row">4:00pm - 5:00pm</th>
@@ -225,48 +216,43 @@ li{
     <td>Available</td>
     <td>Available</td>
     <td>Available</td>
-    <td>Available</td>
-    <td>Available</td>
+
   </tr>
   <tr>
     <th scope="row">5:00pm - 6:00pm</th>
     <td>Available</td>
     <td>Available</td>
     <td>Available</td>
-    <td class="table-danger">Unavailable</td>
+    <td style="background-color:red">Unavailable</td>
     <td>Available</td>
-    <td>Available</td>
-    <td>Available</td>
+
   </tr>
   <tr class="table-active">
     <th scope="row">6:00pm - 7:00pm</th>
     <td>Available</td>
     <td>Available</td>
     <td>Available</td>
-    <td class="table-danger">Unavailable</td>
+    <td style="background-color:red">Unavailable</td>
     <td>Available</td>
-    <td>Available</td>
-    <td>Available</td>
+
   </tr>
   <tr>
     <th scope="row">7:00pm - 8:00pm</th>
     <td>Available</td>
     <td>Available</td>
     <td>Available</td>
-    <td class="table-danger">Unavailable</td>
+    <td style="background-color:red">Unavailable</td>
     <td>Available</td>
-    <td>Available</td>
-    <td>Available</td>
+
   </tr>
   <tr class="table-active">
     <th scope="row">8:00pm - 9:00pm</th>
     <td>Available</td>
     <td>Available</td>
-    <td class="table-danger">Unavailable</td>
+    <td style="background-color:red">Unavailable</td>
     <td>Available</td>
     <td>Available</td>
-    <td>Available</td>
-    <td>Available</td>
+
   </tr>
   <tr>
 
@@ -347,7 +333,6 @@ li{
 <br>
 <hr/><br>
 <h1  id="Contact">Contact me</h1><br>
-<p style="font-size: large; text-align: center" ><img src="wtsp.png" height="5%" width="5%"> Text me on Whatsapp: <a href="tel:9613764567"></a>(+961) 03 764 567
 <p style="font-size: large; text-align: center"><a href="instagram.com/fitwithgalia"><img src="insta.png"  height="5%" width="5%"></a> DM me on Instagram: <a href="instagram.com/fitwithgalia">FitWithGalia</a>
 <p style="font-size: large; text-align: center"><a href = "Jrab.galia@gmail.com?subject = Training Session = Hello! I would like to schedule a training session with you on XX/XX/XXXX at XX:XX"><img src="gmail.png"  height="5%" width="5%" ></a> Or send me a mail me on: <a href = "Jrab.galia@gmail.com?subject = Training Session = Hello! I would like to schedule a training session with you on XX/XX/XXXX at XX:XX">Jrab.galia@gmail.com</a>
 
